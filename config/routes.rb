@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  get '/not_invited', to: 'home#not_invited'
+
+  get '/:code', to: 'sessions#create'
+
+  root to: 'home#index'
 end
