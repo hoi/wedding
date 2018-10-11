@@ -2,7 +2,6 @@ html {
     background: url("https://i.imgur.com/32KjcPP.jpg") repeat;
 }
 
-
 html, body {
     margin: 0;
 }
@@ -24,8 +23,9 @@ html, body {
     background-color: #ffffff;
 }
 
-#footer {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 10px;
+#welcome {
+    background-color: #DEB887;
+    padding: 20px 40px;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 18px;
 }
