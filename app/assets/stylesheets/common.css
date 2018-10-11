@@ -6,3 +6,12 @@ html {
 html, body {
     margin: 0;
 }
+
+#not-invited {
+    max-width: 1024px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 20px;
+
+}
