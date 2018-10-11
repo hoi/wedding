@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
 
   def verify_current_guest
     current_guest.present?
+    Action.create(guest_id: current_guest.id, description: "#{current_guest.name} logged in")
   rescue
     redirect_to '/not_invited'
   end
