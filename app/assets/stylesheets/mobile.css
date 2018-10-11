@@ -1,0 +1,13 @@
+@media (max-width: 480px) {
+    #save-the-date-mobile {
+        display: block;
+    }
+
+    #save-the-date-browser {
+        display: none;
+    }
+
+    #save-the-date-mobile img {
+        width: 100%;
+    }
+}
